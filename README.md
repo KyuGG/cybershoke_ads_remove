@@ -1,4 +1,6 @@
 ### Удаление рекламы на cybershoke
+### Проверено и работает на surf серверах
+### Корректная работа на других серверах не гарантируется, сервера могут кикнуть.
 ---
 #### Установка
 * [У меня есть python](#python) -> <a href="https://github.com/KyuGG/cybershoke_ads_remove/releases/download/python/cybershoke_ads_remove_python.zip">Скачать</a>  (Linux / Windows) <br>
