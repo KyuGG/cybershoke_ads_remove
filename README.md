@@ -9,7 +9,7 @@
 <a id="python"></a>
 #### Build with python
 ##### Requires
-* python 3.11^
+* python >=3.11,<3.12
 * poetry 1.2^
 ##### Building:
 `poetry shell`<br>
