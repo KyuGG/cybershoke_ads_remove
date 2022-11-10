@@ -1,20 +1,19 @@
-### Удаление рекламы на cybershoke
-### Проверено и работает на surf серверах
-### Корректная работа на других серверах не гарантируется, сервера могут кикнуть.
+### Delete ads from hud on cybershoke servers
+### Tested and working on surf servers
+### Correct work on other servers isn't guaranteed, servers may kick you.
+### Script works only on WINDOWS!
 ---
-#### Установка
-* [У меня есть python](#python) -> <a href="https://github.com/KyuGG/cybershoke_ads_remove/releases/download/v1.1/cybershoke_ads_remove_python.zip">Скачать</a>  (Linux / Windows) <br>
-[У меня нет python](#nopython) -> <a href ="https://github.com/KyuGG/cybershoke_ads_remove/releases/download/v1.1/cybershoke_ads_remove_exe.zip">Скачать</a> (Windows)
-* Замените путь к папке csgo в файле settings.json
-    > WINDOWS: необходимо дублировать символ "\\"
-    ![Code_cw3c1UBEzU](https://user-images.githubusercontent.com/47709593/156941517-eabc91a1-ef57-41af-975a-c3104ecf35ad.png)
-    > LINUX: вставляем путь как есть, без всяких замен
+<a href ="https://github.com/KyuGG/cybershoke_ads_remove/releases/download/v2.0/cybershoke_ads_remove_exe.zip">Download [exe]</a>
+---
 ---
 <a id="python"></a>
-#### У меня есть python
-* Запустите в папке со скриптом:<br>
-    `python script.py`
----
-<a id="nopython"></a>
-#### У меня нет python
-* Запустите script.exe
+#### Build with python
+##### Requires
+* python 3.11^
+* poetry 1.2^
+##### Building:
+`poetry shell`<br>
+
+`poetry install --only main`
+
+`python main.py`

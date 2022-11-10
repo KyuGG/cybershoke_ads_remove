@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "cybershoke-ads-remove"
+version = "2.0"
+description = "script for delete ads from cybershoke hud"
+authors = ["KyuGG"]
+readme = "README.md"
+packages = [{include = "cybershoke_ads_remove"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+vdf = "^3.4"
+pynput = "^1.7.6"
+colorama = "^0.4.6"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
