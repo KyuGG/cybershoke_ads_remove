@@ -3,7 +3,7 @@
 ### Correct work on other servers isn't guaranteed, servers may kick you.
 ### Script works only on WINDOWS!
 ---
-<a href ="https://github.com/KyuGG/cybershoke_ads_remove/releases/download/v2.0/cybershoke_ads_remove.zip">Download [exe]</a>
+<a href ="https://github.com/KyuGG/cybershoke_ads_remove/releases/download/v2.0+/cybershoke_ads_remove.zip">Download [exe]</a>
 ---
 ---
 <a id="python"></a>
